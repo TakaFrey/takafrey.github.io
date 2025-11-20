@@ -10,7 +10,7 @@ order: 4
 
 - SOC Analyst currently working at an externalized SOC handling multiple clients  
 - Actively transitioning into **Digital Forensics & Incident Response (DFIR)**
-- Experience in **EDR (HarfangLab)** and **SIEM (Sekoia)** operations  
+- Experience in **EDR** and **SIEM** operations  
 - Interested in **memory forensics, malware analysis, threat hunting, and IR methodology**
 - Learning DFIR through **TryHackMe**, CTFs, labs, and practical forensic investigations  
 
