@@ -1,0 +1,20 @@
+---
+---
+
+@import "main";
+
+/* --- CUSTOM FIXES --- */
+
+    /* Center footer icons */
+#sidebar .sidebar-bottom .contact {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#sidebar .sidebar-bottom .contact li {
+  justify-content: center !important;
+}
+
+#sidebar .sidebar-bottom .contact li a {
+  margin: 0 8px !important;
+}
