@@ -1,21 +1,37 @@
 ---
-title: "DFIR Case - Example Investigation"
+title: "DFIR Case — [Case Title]"
 author: Rémy Dupeyroux
-date: 2025-01-01 12:00:00 +0200
+date: 2025-02-01
 categories: [DFIR]
-tags: [memory, volatility, windows, forensics]
+tags: [forensics, memory, volatility, windows]
 ---
 
-This is a template for future Digital Forensics investigations.
+## 🧩 Summary  
+Short overview of the incident + key findings.
 
-## 🧩 Summary
+## 📁 Collected Evidence  
+- Memory dump (image.raw)  
+- Disk image (E01 / VHDX)  
+- Event logs  
+- Registry hives  
 
-## 🔍 Initial Evidence
+## 🔍 Initial Triage  
+- Hashing  
+- Quick IOC search  
+- Timeline preparation  
 
-## 🧠 Analysis
+## 🧠 Deep Analysis  
+### Memory  
+### Disk  
+### Registry  
+### Timeline  
+### Network  
 
-## 📌 Findings
+## 📌 Findings  
+Clear bullet list with evidence-based conclusions.
 
-## 🛡️ Mitigation
+## 🛡️ Remediation  
+Actionable steps.
 
-## 📄 IOCs
+## 📄 Indicators of Compromise  
+IOC table (hashes, domains, registry keys, file paths…)
