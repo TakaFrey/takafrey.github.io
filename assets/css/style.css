@@ -1,0 +1,14 @@
+---
+---
+
+      /* Center footer icons */
+#sidebar .sidebar-bottom .contact li {
+  justify-content: center !important;
+}
+#sidebar .sidebar-bottom .contact {
+  text-align: center;
+}
+
+#sidebar .sidebar-bottom .contact li a {
+  margin: 0 8px;
+}
