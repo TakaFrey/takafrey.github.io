@@ -1,20 +1,23 @@
----
----
-
-@import "main";
-
-/* --- CUSTOM FIXES --- */
-
-    /* Center footer icons */
-#sidebar .sidebar-bottom .contact {
+/* Center contact icons in sidebar */
+.sidebar-bottom .contact {
   display: flex !important;
   justify-content: center !important;
+  align-items: center !important;
+  gap: 1rem !important;
 }
 
-#sidebar .sidebar-bottom .contact li {
-  justify-content: center !important;
+.sidebar-bottom .contact li {
+  margin: 0 !important;
 }
 
-#sidebar .sidebar-bottom .contact li a {
-  margin: 0 8px !important;
+/* Fix on mobile */
+@media (max-width: 768px) {
+  .sidebar-bottom {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .sidebar-bottom .contact {
+    flex-wrap: nowrap !important;
+  }
 }
